@@ -1,0 +1,143 @@
+{
+    "metadata": {
+        "version": "3.0",
+        "created": "2025-07-07",
+        "description": "Greatly expanded and categorized feedback options for presentation rating system"
+    },
+    "good": {
+        "Content & Structure": [
+            { "id": "g1", "text": "Well-structured content" },
+            { "id": "g2", "text": "Clear and logical flow" },
+            { "id": "g3", "text": "Compelling introduction" },
+            { "id": "g4", "text": "Strong, memorable conclusion" },
+            { "id": "g5", "text": "Excellent examples and stories" },
+            { "id": "g6", "text": "Data was well-presented and clear" },
+            { "id": "g7", "text": "Key messages were impactful" },
+            { "id": "g25", "text": "Content was highly relevant to audience" },
+            { "id": "g26", "text": "Appropriate level of detail (not too much/little)" },
+            { "id": "g27", "text": "Offered original insights or perspective" },
+            { "id": "g28", "text": "Clear 'signposting' between sections" },
+            { "id": "g29", "text": "Complex topics explained simply" }
+        ],
+        "Verbal Delivery": [
+            { "id": "g8", "text": "Clear and articulate speech" },
+            { "id": "g9", "text": "Engaging vocal variety and tone" },
+            { "id": "g10", "text": "Good pacing and effective pausing" },
+            { "id": "g11", "text": "Confident and convincing tone" },
+            { "id": "g12", "text": "Spoke with passion and energy" },
+            { "id": "g30", "text": "Avoided filler words (um, uh, like)" },
+            { "id": "g31", "text": "Language was professional and appropriate" },
+            { "id": "g32", "text": "Volume was perfect for the space/mic" }
+        ],
+        "Non-Verbal Communication": [
+            { "id": "g13", "text": "Great eye contact with entire audience" },
+            { "id": "g14", "text": "Confident and open posture" },
+            { "id": "g15", "text": "Natural and effective use of gestures" },
+            { "id": "g16", "text": "Professional demeanor and appearance" },
+            { "id": "g33", "text": "Appeared relaxed and comfortable" },
+            { "id": "g34", "text": "Used stage or presentation area effectively" },
+            { "id": "g35", "text": "Facial expressions matched the content" }
+        ],
+        "Visual Aids": [
+            { "id": "g17", "text": "Visually appealing slides" },
+            { "id": "g18", "text": "Slides enhanced and supported the message" },
+            { "id": "g19", "text": "Minimal, effective text on slides" },
+            { "id": "g20", "text": "High-quality graphics and images" },
+            { "id": "g36", "text": "Consistent and clean design theme" },
+            { "id": "g37", "text": "Fonts and colors were clear and legible" },
+            { "id": "g38", "text": "Animations/transitions were subtle and effective" },
+            { "id": "g39", "text": "Charts and graphs were easy to understand" }
+        ],
+        "Audience Engagement": [
+            { "id": "g21", "text": "Strong audience engagement" },
+            { "id": "g40", "text": "Built excellent rapport with the audience" },
+            { "id": "g41", "text": "Used humor effectively" },
+            { "id": "g42", "text": "Successfully facilitated audience interaction" },
+            { "id": "g43", "text": "Kept the audience's attention throughout" },
+            { "id": "g44", "text": "Adapted content or style to audience reactions" }
+        ],
+        "Q&A Handling": [
+            { "id": "g22", "text": "Handled questions confidently" },
+            { "id": "g23", "text": "Concise, clear, and direct answers" },
+            { "id": "g45", "text": "Listened carefully to the full question" },
+            { "id": "g46", "text": "Gracefully handled difficult or tricky questions" },
+            { "id": "g47", "text": "Welcomed and encouraged questions" },
+            { "id": "g48", "text": "Admitted when they didn't have the answer" }
+        ],
+        "Professionalism & Time Management": [
+            { "id": "g24", "text": "Managed time for Q&A well" },
+            { "id": "g49", "text": "Excellent overall time management" },
+            { "id": "g50", "text": "Started and ended on time" },
+            { "id": "g51", "text": "Clearly well-rehearsed and prepared" },
+            { "id": "g52", "text": "Handled technical setup smoothly" },
+            { "id": "g53", "text": "Remained poised under pressure" }
+        ]
+    },
+    "bad": {
+        "Content & Structure": [
+            { "id": "b1", "text": "Difficult to follow or confusing structure" },
+            { "id": "b2", "text": "Lacked a clear key message or takeaway" },
+            { "id": "b3", "text": "Weak opening or abrupt closing" },
+            { "id": "b4", "text": "Too much information / information overload" },
+            { "id": "b5", "text": "Not enough data or supporting evidence" },
+            { "id": "b6", "text": "Content wasn't relevant to the audience" },
+            { "id": "b24", "text": "Information seemed inaccurate or unverified" },
+            { "id": "b25", "text": "Content was too basic or superficial" },
+            { "id": "b26", "text": "Abrupt or unclear transitions between topics" },
+            { "id": "b27", "text": "Purpose of the presentation was unclear" }
+        ],
+        "Verbal Delivery": [
+            { "id": "b7", "text": "Mumbled or spoke too quietly" },
+            { "id": "b8", "text": "Spoke too quickly / rushed" },
+            { "id": "b9", "text": "Monotone or uninspired delivery" },
+            { "id": "b10", "text": "Excessive filler words (um, uh, so, like)" },
+            { "id": "b11", "text": "Sounded uncertain or lacked conviction" },
+            { "id": "b28", "text": "Over-reliance on script or notes" },
+            { "id": "b29", "text": "Inconsistent audio levels (too loud/soft)" },
+            { "id": "b30", "text": "Unprofessional language or slang" }
+        ],
+        "Non-Verbal Communication": [
+            { "id": "b12", "text": "Lack of eye contact / looked down often" },
+            { "id": "b13", "text": "Nervous fidgeting or distracting tics" },
+            { "id": "b14", "text": "Closed-off body language (e.g., crossed arms)" },
+            { "id": "b15", "text": "Distracting mannerisms or pacing" },
+            { "id": "b31", "text": "Appeared tense or uncomfortable" },
+            { "id": "b32", "text": "Glued to one spot / did not move" },
+            { "id": "b33", "text": "Facial expressions seemed disconnected or flat" }
+        ],
+        "Visual Aids": [
+            { "id": "b16", "text": "Slides were too cluttered or busy" },
+            { "id": "b17", "text": "Presenter read directly from slides" },
+            { "id": "b18", "text": "Typos or grammatical errors on slides" },
+            { "id": "b19", "text": "Poor quality visuals or pixelated graphics" },
+            { "id": "b34", "text": "Distracting animations or transitions" },
+            { "id": "b35", "text": "Inconsistent or unprofessional design" },
+            { "id": "b36", "text": "Low contrast colors were hard to read" },
+            { "id": "b37", "text": "Charts/graphs were confusing or misleading" }
+        ],
+        "Audience Engagement": [
+            { "id": "b20", "text": "Failed to engage or connect with the audience" },
+            { "id": "b38", "text": "Presented as a one-way lecture" },
+            { "id": "b39", "text": "Ignored audience non-verbal cues (e.g., boredom)" },
+            { "id": "b40", "text": "Interaction felt forced or awkward" },
+            { "id": "b41", "text": "Lost the audience's attention" }
+        ],
+        "Q&A Handling": [
+            { "id": "b21", "text": "Unclear, rambling, or defensive answers" },
+            { "id": "b42", "text": "Did not seem to understand the question" },
+            { "id": "b43", "text": "Interrupted the questioner" },
+            { "id": "b44", "text": "Dismissive or condescending toward questions" },
+            { "id": "b45", "text": "Dodged the question instead of answering" },
+            { "id": "b46", "text": "Provided inaccurate information in an answer" }
+        ],
+        "Professionalism & Time Management": [
+            { "id": "b4", "text": "Lack of preparation was evident" },
+            { "id": "b22", "text": "Poor time management / went over time" },
+            { "id": "b23", "text": "Technical issues were handled poorly" },
+            { "id": "b47", "text": "Rushed through the end of the presentation" },
+            { "id": "b48", "text": "Started late or was disorganized at the start" },
+            { "id": "b49", "text": "Seemed flustered by unexpected events" },
+            { "id": "b50", "text": "Blamed tools or others for issues" }
+        ]
+    }
+}

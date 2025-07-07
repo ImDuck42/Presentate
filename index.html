@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Presentation Rating System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- The header and timer control panel -->
+        <header class="main-header">
+            <div class="presentation-info">
+                <h1>Presentation Rating</h1>
+                <!-- Wrapper for stars and the new auto-indicator -->
+                <div class="rating-wrapper">
+                    <div class="stars" id="stars" data-rating="0">
+                        <span class="star" data-value="1">★</span>
+                        <span class="star" data-value="2">★</span>
+                        <span class="star" data-value="3">★</span>
+                        <span class="star" data-value="4">★</span>
+                        <span class="star" data-value="5">★</span>
+                        <span class="star" data-value="6">★</span>
+                    </div>
+                    <!-- Indicator for automatic rating -->
+                    <div id="auto-rating-indicator" class="auto-indicator hidden" title="Rating automatically calculated based on feedback.">AUTO</div>
+                </div>
+                <div class="current-time" id="current-time"></div>
+            </div>
+
+            <div class="timer">
+                <div class="timer-display" id="timer-display">00:00</div>
+                <div class="timer-controls">
+                    <button id="start-btn" class="timer-btn start">Start</button>
+                    <button id="pause-btn" class="timer-btn pause" disabled>Pause</button>
+                    <button id="reset-btn" class="timer-btn reset">Reset</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="feedback">
+            <button id="good-btn" class="feedback-btn good">
+                👍 Good <span class="feedback-counter" id="good-counter">0</span>
+            </button>
+            <button id="bad-btn" class="feedback-btn bad">
+                👎 Bad <span class="feedback-counter" id="bad-counter">0</span>
+            </button>
+        </section>
+
+        <section class="summary hidden" id="summary">
+            <h2>Session Summary</h2>
+            <div class="summary-items-row">
+                <div class="summary-item">
+                    <span class="summary-label">Final Rating:</span>
+                    <span class="summary-value" id="final-rating">0 stars</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-label">Total Duration:</span>
+                    <span class="summary-value" id="final-duration">00:00</span>
+                </div>
+            </div>
+            <div class="feedback-summary">
+                <div class="feedback-category">
+                    <h3>Positive Feedback</h3>
+                    <div class="feedback-log" id="good-feedback-log"></div>
+                </div>
+                <div class="feedback-category">
+                    <h3>Areas for Improvement</h3>
+                    <div class="feedback-log" id="bad-feedback-log"></div>
+                </div>
+            </div>
+            <button class="clear-btn" id="clear-session">Clear Session & Reset All</button>
+        </section>
+    </div>
+
+    <!-- Modals -->
+    <div id="good-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Positive Feedback</h2>
+                <button class="close-btn" aria-label="Close">×</button>
+            </div>
+            <div class="modal-search">
+                <input type="search" id="good-search" placeholder="Search feedback...">
+            </div>
+            <div class="feedback-list" id="good-feedback-list"></div>
+            <div class="custom-feedback">
+                <input type="text" id="good-custom-input" placeholder="Add custom positive feedback...">
+                <button id="good-custom-add" class="modal-btn-add">+</button>
+            </div>
+            <div class="modal-actions">
+                <button class="modal-btn submit" id="good-submit">Submit</button>
+                <button class="modal-btn cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="bad-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Areas for Improvement</h2>
+                <button class="close-btn" aria-label="Close">×</button>
+            </div>
+            <div class="modal-search">
+                <input type="search" id="bad-search" placeholder="Search feedback...">
+            </div>
+            <div class="feedback-list" id="bad-feedback-list"></div>
+            <div class="custom-feedback">
+                <input type="text" id="bad-custom-input" placeholder="Add custom improvement area...">
+                <button id="bad-custom-add" class="modal-btn-add">+</button>
+            </div>
+            <div class="modal-actions">
+                <button class="modal-btn submit" id="bad-submit">Submit</button>
+                <button class="modal-btn cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
